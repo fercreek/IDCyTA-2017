@@ -45,7 +45,7 @@ body{
 	font-family: 'OpenSans-Regular'
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat 0px 0px;
+	background: url("../images/background.png") no-repeat 0px 0px;
 	background-size: cover;
 	min-height:800px;
 }
@@ -895,7 +895,7 @@ p.smith a {
 }
 .header {
     min-height: 404px;
- background: url("../images/banner.jpg") no-repeat -155px 0px;
+ background: url("../images/background.png") no-repeat -155px 0px;
   background-size: cover;
 }
 .about-section h3,.services-section h3,.gallery h3,.team h3,.blog-section h3,.contact-header h3,.single h2,.top-comments h3, .leave h3 {
@@ -1083,7 +1083,7 @@ p.reply {
 }
 @media (max-width: 320px){
 .header {
-    background: url("../images/banner.jpg") no-repeat -174px 0px;
+    background: url("../images/background.png") no-repeat -174px 0px;
 	background-size:cover;
 }
 .header-top {
