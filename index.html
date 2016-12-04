@@ -1,266 +1,426 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
-		
-		<title>FCB - IDCyTA</title>
+<!--
+Au<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Sciencelab a Medical Category Flat Bootstarp Responsive Website Template | Home :: w3layouts</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Sciencelab Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/modernizr.custom.97074.js"></script>
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+ <script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+			});
+		});
+	</script>
+<!---End-smoth-scrolling---->
+<!--script-->
+<script src="js/jquery.chocolat.js"></script>
+		<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8">
+		<!--light-box-files -->
+		<script type="text/javascript" charset="utf-8">
+		$(function() {
+			$('.gallery a').Chocolat();
+		});
+		</script>
+<!--script-->
 
-		<!-- Loading third party fonts -->
-		<link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
-		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-
-		<!-- Loading main css file -->
-		<link rel="stylesheet" href="style.css">
-		
-		<!--[if lt IE 9]>
-		<script src="js/ie-support/html5.js"></script>
-		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
-
-	</head>
-
-
-	<body>
-		
-		<div class="site-content">
-			<header class="site-header collapsed-nav" data-bg-image="">
+</head>
+<body>
+	<div class="header" id="home">
+		<div class="header-top">
+			<div class="container">
+			   <div class="logo">
+				  <a href="index.html">science<span>lab</span></a>
+				</div>
+				<div class="top-menu">
+					<span class="menu"><img src="images/nav.png" alt=""/> </span>
+						<ul>
+						<li><a href="#home" class="active scroll">home</a></li>
+						<li><a href="#aboutus" class="scroll">about us</a></li>
+						<li><a href="#services" class="scroll">services</a></li>
+						<li><a href="#gallery" class="scroll">gallery</a></li>
+						<li><a href="#team" class="scroll">team</a></li>
+						<li><a href="#blog" class="scroll">blog</a></li>
+						<li><a href="#contact" class="scroll">contact</a></li>
+					</ul>
+				</div>
+					 <!--script-nav-->
+						 <script>
+						 $("span.menu").click(function(){
+						 $(".top-menu ul").slideToggle("slow" , function(){
+						 });
+						 });
+						 </script>
+		 
+						<div class="clearfix"></div>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+			<div class="about-section" id="aboutus">
 				<div class="container">
-					<div class="header-bar">
-						<a href="index.html" class="branding">
-							<img src="images/logo.png" alt="" class="logo">
-							<div class="logo-type">
-								<h1 class="site-title">Company name</h1>
-								<small class="site-description">Tagline goes here</small>
+					<h3>welcome to the laboratory !</h3>
+					    <div class="about-grids">
+							<div class="col-md-4 about-grid">
+								<img src="images/p1.jpg" class="img-responsive" alt="">
+								<h4>epsum factorial</h4>
+								<p>Epsum factorial nonp quid pro quo hic escorol. Olypian quarrels et gorcongolium onp quid sic ad nauseum. Souvlaki ignitus</p>
+							</div>
+							<div class="col-md-4 about-grid">
+								<img src="images/p2.jpg"  class="img-responsive" alt="">
+								<h4>olypian quarrels</h4>
+								<p>Epsum factorial nonp quid pro quo hic escorol. Olypian quarrels et gorcongolium onp quid sic ad nauseum. Souvlaki ignitus.</p>
+							</div>
+							<div class="col-md-4 about-grid">
+								<img src="images/p3.jpg"  class="img-responsive" alt="">
+								<h4>epsum factorial</h4>
+								<p>Epsum factorial nonp quid pro quo hic escorol. Olypian quarrels et gorcongolium onp quid sic ad nauseum. Souvlaki ignitus.</p>
+							</div>
+								<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+					<div class="services-section" id="services">
+						<div class="container">
+							<h3>LABORATORY SERVICES AND TESTS</h3>
+								<div class="services-grids">
+							<div class="col-md-6 service-leftgrid">
+								<div class="service1">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-glass" aria-hidden="true"></span>
+									</div>
+									<div class="left-grid2">
+										<h4>Adipisci velit sed </h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="service2">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+									</div>
+									<div class="left-grid2">
+										<h4>Magnam aliqu</h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="service1">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-check" aria-hidden="true"></span>
+									</div>
+									<div class="left-grid2">
+										<h4>Voluptas nulla </h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+							</div>
+							<div class="col-md-6 service-rightgrid">
+								<div class="service1">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-pushpin" aria-hidden="true"></span>								
+										</div>
+									<div class="left-grid2">
+										<h4>Error sit voluptatem </h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="service2">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-leaf" aria-hidden="true"></span>							
+									</div>
+									<div class="left-grid2">
+										<h4>PCum sociis natoque </h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"></div>
+								</div>
+								<div class="service1">
+									<div class="left-grid1">
+										<span class="glyphicon glyphicon-fire" aria-hidden="true"></span>
+									</div>
+									<div class="left-grid2">
+										<h4>Phasellus porta </h4>
+										<p>How wonderful it is that nobody need wait a singlemoment before starting to improve the world.</p>
+									</div>
+									<div class="clearfix"> </div>
+								</div>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+					</div>
+				</div>
+		<!--gallery-->
+	<div class="gallery" id="gallery">
+		<div class="container">
+			<h3>gallery</h3>
+			<div class="gallery-grids">
+			<section>
+				<ul id="da-thumbs" class="da-thumbs">
+					<li>
+						<a href="images/g1.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g1.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
 						</a>
-
-						<nav class="main-navigation">
-							<button class="menu-toggle"><i class="fa fa-bars"></i></button>
-							<ul class="menu">
-								<li class="home menu-item current-menu-item"><a href="index.html"><img src="images/home-icon.png" alt="Home"></a></li>
-								<li class="menu-item"><a href="about.html">Inicio</a></li>
-								<li class="menu-item"><a href="services.html">Nosotros</a></li>
-								<li class="menu-item"><a href="projects.html">Congreso</a></li>
-								<li class="menu-item"><a href="contact.html">Revista</a></li>
-							</ul>
-						</nav>
-
-						<div class="mobile-navigation"></div>
-					</div>
-				</div>
-			</header>
-
-			<div class="hero">
-				<ul class="slides">
-					<li data-bg-image="images/slider-1.jpg">
-						<div class="container">
-							<div class="slide-content">
-								<h2 class="slide-title">Investigación y Desarrollo en Ciencia y Tecnología de Alimentos</h2>
-								<p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.</p>
-								<!-- <a href="#" class="button">See details</a> -->
-							</div>
-						</div>
 					</li>
-<!-- 					<li data-bg-image="images/slider-2.jpg">
-						<div class="container">
-							<div class="slide-content">
-								<h2 class="slide-title">LaboreLabore et dolore magna</h2>
-								<p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.</p>
-								<a href="#" class="button">See details</a>
+					<li>
+						<a href="images/g2.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g2.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
-						</div>
+						</a>
 					</li>
-					<li data-bg-image="images/slider-3.jpg">
-						<div class="container">
-							<div class="slide-content">
-								<h2 class="slide-title">LaboreLabore et dolore magna</h2>
-								<p>Enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi aliquip ex ea commodo consequat duis aute irure dolor in reprehenderit.</p>
-								<a href="#" class="button">See details</a>
+					<li>
+						<a href="images/g3.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g3.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
 							</div>
-						</div>
-					</li> -->
+						</a>
+					</li>
+					<li>
+						<a href="images/g4.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g4.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>	
+						<a href="images/g5.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g5.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/g6.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g6.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/g7.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g7.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/g8.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g8.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="images/g9.jpg" rel="title" class="b-link-stripe b-animate-go  thickbox">
+							<img src="images/g9.jpg" alt="" />
+							<div>
+								<h5>project</h5>
+								<span>non suscipit leo fringilla non suscipit leo fringilla molestie</span>
+							</div>
+						</a>
+					</li>
+					<div class="clearfix"> </div>
 				</ul>
-			</div>
+			</section>
+			<script type="text/javascript" src="js/jquery.hoverdir.js"></script>	
+		<script type="text/javascript">
+			$(function() {
+			
+				$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
 
-			<main class="main-content">
-				<div class="fullwidth-block">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-3 col-sm-6">
-								<div class="feature">
-									<img src="images/icon-research-small.png" alt="" class="feature-image">
-									<h2 class="feature-title">Research</h2>
-									<p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
-									<a href="" class="button">Learn more</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="feature">
-									<img src="images/icon-medicine-small.png" alt="" class="feature-image">
-									<h2 class="feature-title">Medicice</h2>
-									<p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
-									<a href="" class="button">Learn more</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="feature">
-									<img src="images/icon-genetics-small.png" alt="" class="feature-image">
-									<h2 class="feature-title">Genetics</h2>
-									<p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
-									<a href="" class="button">Learn more</a>
-								</div>
-							</div>
-							<div class="col-md-3 col-sm-6">
-								<div class="feature">
-									<img src="images/icon-energy-small.png" alt="" class="feature-image">
-									<h2 class="feature-title">Energy</h2>
-									<p>Laborum et dolorum fuga harum quidem rerum facilis et expedita distinctio nam libero tempore.</p>
-									<a href="" class="button">Learn more</a>
-								</div>
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block -->
-
-				<div class="fullwidth-block" data-bg-color="#edf2f4">
-					<div class="container">
-						<h2 class="section-title">Latest News</h2>
-						<div class="row">
-							<div class="col-md-4">
-								<div class="post">
-									<figure class="featured-image"><img src="images/news-1.jpg" alt=""></figure>
-									<h2 class="entry-title"><a href="">Magni dolores rationale</a></h2>
-									<small class="date">2 oct 2014</small>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="post">
-									<figure class="featured-image"><img src="images/news-2.jpg" alt=""></figure>
-									<h2 class="entry-title"><a href="">Perspiciatis unde omnus</a></h2>
-									<small class="date">2 oct 2014</small>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
-								</div>
-							</div>
-							<div class="col-md-4">
-								<div class="post">
-									<figure class="featured-image"><img src="images/news-3.jpg" alt=""></figure>
-									<h2 class="entry-title"><a href="">Voluptatem laundantium  totam</a></h2>
-									<small class="date">2 oct 2014</small>
-									<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...</p>
-								</div>
-							</div>
-						</div> <!-- .row -->
-					</div> <!-- .container -->
-				</div> <!-- .fullwidth-block -->
-
-				<div class="fullwidth-block">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-8">
-								<h2 class="section-title">Our mission and vision</h2>
-								<p>Consequuntur minima, delectus quia labore sapiente maiores illo enim numquam sint? Molestias odio itaque, recusandae ut quae fuga ea tempore facere facilis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi cupiditate repellat velit quo, fugiat dolores eum corrupti commodi? Deserunt, adipisci sunt voluptas aliquid aliquam eos. Perspiciatis, similique atque deserunt nam.</p>
-								<p>Distinctio delectus consequuntur sed quod ipsum a, odio obcaecati neque, aliquam nostrum aliquid reprehenderit ad quae qui autem voluptate omnis quas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime magnam amet obcaecati dolore omnis consectetur dignissimos iste cupiditate excepturi quae porro fugiat, nemo iure, minima. Fuga hic voluptate ratione, at.ullam.</p>
-							</div>
-							<div class="col-md-4">
-								<h2 class="section-title">Research summaries</h2>
-								<ul class="arrow-list has-border">
-									<li><a href="#">Praesentium voluptatum deleniti atque dolores</a></li>
-									<li><a href="#">Corrupti quos et quas molestias excepturi sint</a></li>
-									<li><a href="#">Occaecati cupiditate non provident similique sunt</a></li>
-									<li><a href="#">Nam libero tempore, cum soluta nobis est eligendi</a></li>
-								</ul>
-								<a href="#" class="button">Show more</a>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div class="fullwidth-block cta" data-bg-image="images/cta-bg.jpg">
-					<div class="container">
-						<h2 class="cta-title">Neque porro quisquam</h2>
-						<p>Modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem enim ad minima veniam quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil moles</p>
-						<a href="#" class="button">See details</a>
-					</div>
-				</div>
-
-				<div class="fullwidth-block" data-bg-color="#edf2f4">
-					<div class="container">
-						<div class="subscribe-form">
-							<h2>Join our newsletter</h2>
-							<form action="#">
-								<input type="text" placeholder="Enter your email">
-								<input type="submit" value="Subscribe">
-							</form>
-						</div>
-					</div>
-				</div>
-
-			</main> <!-- .main-content -->
-
-			<footer class="site-footer">
+			});
+		</script>
+        </div>
+	</div>
+</div>
+<!--//gallery-->
+<!--team-->
+			<div class="team" id="team">
 				<div class="container">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="widget">
-								<h3 class="widget-title">Contacto</h3>
-								<strong>Envia un correo a la direccion: <i>idcyta@gmail.com</i></strong>
-								
-								<br>
-								<i>Melissa Gallegos (Estudiante de LCA) cede el uso de las imagenes a la FCB, UANL.</i>
-<!-- 								<a href="tel:+1 800 931 812">+1 800 931 812</a> <br>
-								<a href="mailto:office@companyname.com">office@companyname.com</a> -->
+				<h3>Our Team Members</h3>
+				<div class="team-info">
+					<div class="col-md-3 team-grids">
+						<a href="#">
+							<img class="img-responsive" src="images/t1.jpg" alt="">
+							<div class="captn">
+								<h4>Tincidun</h4>
+								<p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
 							</div>
-						</div>
-<!-- 						<div class="col-md-3">
-							<div class="widget">
-								<h3 class="widget-title">Press room</h3>
-								<ul class="arrow-list">
-									<li><a href="#">Accusantium doloremque</a></li> 
-									<li><a href="#">Laudantium totam aperiam</a></li>
-									<li><a href="#">Eaque ipsa quae illo inventore</a></li> 
-									<li><a href="#">Veritatis et quasi architecto</a></li>
-									<li><a href="#">Vitae dicta sunt explicabo</a></li>
-								</ul>
+						</a>
+					</div>					
+					<div class="col-md-3 team-grids">
+						<a href="#">
+							<img class="img-responsive" src="images/t2.jpg" alt="">
+							<div class="captn">
+								<h4>Velit uti</h4>
+								<p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
 							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widget">
-								<h3 class="widget-title">Research summary</h3>
-								<ul class="arrow-list">
-									<li><a href="#">Accusantium doloremque</a></li> 
-									<li><a href="#">Laudantium totam aperiam</a></li>
-									<li><a href="#">Eaque ipsa quae illo inventore</a></li> 
-									<li><a href="#">Veritatis et quasi architecto</a></li>
-									<li><a href="#">Vitae dicta sunt explicabo</a></li>
-								</ul>
+						</a>
+					</div>
+					<div class="col-md-3 team-grids">
+						<a href="#">
+							<img class="img-responsive" src="images/t3.jpg" alt="">
+							<div class="captn">
+								<h4>Posuere</h4>
+								<p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
 							</div>
-						</div>
-						<div class="col-md-3">
-							<div class="widget">
-								<h3 class="widget-title">Social media</h3>
-								<p>Deserunt mollitia animi id est laborum dolorum fuga harum quidem rerum facilis.</p>
-								<div class="social-links">
-									<a href="#"><i class="fa fa-facebook"></i></a>
-									<a href="#"><i class="fa fa-twitter"></i></a>
-									<a href="#"><i class="fa fa-google-plus"></i></a>
-									<a href="#"><i class="fa fa-pinterest"></i></a>
+						</a>
+					</div>
+					<div class="col-md-3 team-grids">
+						<a href="#">
+							<img class="img-responsive" src="images/t4.jpg" alt="">
+							<div class="captn">
+								<h4>Augc sfe</h4>
+								<p>Aenean pulvinar ac enimet posuere tincidunt velit Utin tincidunt</p>
+							</div>
+						</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+			</div>
+			<!--//team-->
+
+<!--start-blog-->
+		<div id="blog" class="blog-section">
+		   <div class="container">
+		         <h3>Blog</h3>
+				 <div class="blog">
+				   <div class="col-md-4 blog-text">
+					   <h5>THU 14 May, 2015</h5>
+					  <h4><a href="single.html">EXCEPTEUR SINT OCCAECAT CUPIDATAT NON</a></h4>
+					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				   </div>
+					<div class="col-md-8 welcome-img">
+					 <a href="single.html" class="mask"><img src="images/b2.jpg" alt="image" class="img-responsive zoom-img"></a>
+					</div>
+				   <div class="clearfix"> </div>
+			   </div>
+			    <div class="blog">
+				 <div class="col-md-4 blog-text two">
+					   <h5>THU 14 May, 2015</h5>
+					  <h4><a href="single.html">EXCEPTEUR SINT OCCAECAT CUPIDATAT NON</a></h4>
+					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				   </div>
+					<div class="col-md-8 blog-img two">
+					 <a href="single.html" class="mask"><img src="images/b3.jpg" alt="image" class="img-responsive zoom-img"></a>
+					</div>
+				   <div class="clearfix"> </div>
+			   </div> 
+			    <div class="blog">
+				   <div class="col-md-4 blog-text">
+					   <h5>THU 14 May, 2015</h5>
+					   <h4><a href="single.html">EXCEPTEUR SINT OCCAECAT CUPIDATAT NON</a></h4>
+					   <p>Lorem ipsum dolor sit amet conse ctetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				   </div>
+					<div class="col-md-8 welcome-img">
+					 <a href="single.html" class="mask"><img src="images/b1.jpg" alt="image" class="img-responsive zoom-img"></a>
+					</div>
+				   <div class="clearfix"> </div>
+			   </div>
+		</div>
+	</div>
+	<div class="contact-section" id="contact">
+				<div class="container">
+				<div class="contact-header">
+					<h3>contact us</h3>
+					</div>
+						<div class="contact-grid">
+						<div class="col-md-6 contactdetails-grid">
+						<h4>contact form</h4>
+               				
+							<h5>name <span>*</span></h5>
+               					<form>
+								<input type="text">
+               						<h5>email address <span>*</span></h5>
+               							<input type="text">
+               								<h5>subject <span>*</span></h5>
+               									<input type="text">
+               										<h5>message <span>*</span></h5>
+               											<textarea> </textarea>
+             												<input type="submit" value="send">
+																</form>
+               				</div>
+               			<div class="col-md-6 contactdetails-grid1">
+               				<div class="address">
+               				<h4>Address</h4>
+               			    <p>500 Lorem Ipsum Dolor Sit,</p>
+							   <p>22-56-2-9 Sit Amet, Lorem,</p>
+								  <p>USA</p>
+				   					<p>Phone:(00) 222 666 444</p>
+				   						<p>Fax: (000) 000 00 00 0</p>
+				 	 						<p>Email: <a href="mailto:example@mail.com">info@mycompany.com</a></p>
+				   								<p>Follow on: <a href="#">Facebook</a> , <a href="#">Twitter</a></p>
+				  							</div>
+				  							<div class="google-map">
+               				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3021.0814617966994!2d-73.96467908332265!3d40.782223218920294!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2589a018531e3%3A0xb9df1f7387a94119!2sCentral+Park!5e0!3m2!1sen!2sin!4v1420805667126"></iframe>
+               			</div>
+				   						</div>
+										<div class="clearfix"> </div>
+               					</div>
 								</div>
 							</div>
-						</div> -->
-					</div> <!-- .row -->
 
-					<!-- <p class="colophon">copyright 2014 Company name. Designed by <a href="http://www.vandelaydesign.com/" title="Designed by VandelayDesign.com" target="_blank">VandelayDesign.com</a>. All rights reserved</p> -->
-				</div> <!-- .container -->
-			</footer>
-		</div>
-
-		<script src="js/jquery-1.11.1.min.js"></script>
-		<script src="js/plugins.js"></script>
-		<script src="js/app.js"></script>
-		
-	</body>
-
+	<div class="footer-section">
+						<div class="container">
+							<div class="footer-bottom">
+						<p>Copyright &copy; 2015 <span>Sciencelab.</span> All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+									</div>
+							<script type="text/javascript">
+						$(document).ready(function() {
+							/*
+							var defaults = {
+					  			containerID: 'toTop', // fading element id
+								containerHoverID: 'toTopHover', // fading element hover id
+								scrollSpeed: 1200,
+								easingType: 'linear' 
+					 		};
+							*/
+							
+							$().UItoTop({ easingType: 'easeOutQuart' });
+							
+						});
+					</script>
+				<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>
+			</div>
+</body>
 </html>
