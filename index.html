@@ -230,17 +230,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                 <div class="row">
                   <div class="col-md-12 text-center" >
                     <div class="col-md-4" ng-repeat="x in [1,2,3] track by $index">
-                      <button class="btn btn-info" type="button" ng-click="vm.openVol(x)">Volumen I No. 1</button>
+                      <button class="btn btn-info" type="button" ng-click="vm.openVol(x)">Volumen I No. {{x}}</button>
                     </div>
                   </div>
                 </div>
 
                 <div class="gallery" style="background: inherit;">
                   <div class="container">
-                    <section id="section-1" ng-repeat="x in [1,2,3] track by $index" ng-show="vm.valueEnable == x">
+                    <section
+                      ng-repeat="x in [1,2,3] track by $index" 
+                      ng-show="vm.valueEnable == x">
                       <h4>Volumen I No. {{$index+1}}</h4>
                       <ul id="da-thumbs" class="da-thumbs">
-                        <li ng-repeat="chapter in vm.chapters track by $index">
+                        <li 
+                          ng-repeat="(key, chapter) in vm.chapters" 
+                          ng-click="vm.selectChapter(vm.valueEnable, key)">
                           <a rel="title" class="b-link-stripe b-animate-go thickbox">
                             <img src="images/articles/{{$index + 1}}.png" alt="" />
                           </a>
@@ -256,10 +260,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                   </div>
                 </div>
 
-                <uib-accordion close-others="oneAtATime">
-                  <div uib-accordion-group class="panel-default" is-open="vm.status.open" ng-repeat="sub in vm.subChapters">
+                <uib-accordion close-others="vm.oneAtATime" ng-show="vm.showAccordion">
+                  <div uib-accordion-group class="panel-default" 
+                    is-open="sub.isOpen" 
+                    ng-repeat="sub in vm.selectedArticles.articles"
+                    ng-click="vm.updateOpenStatus()">
                     <uib-accordion-heading><p ng-bind-html="sub.title"></p></uib-accordion-heading>
-                    <a href="./files/volume1/1/1/1.pdf" target="_blank" style="text-decoration: underline;">
+                    <a href="{{sub.file}}" target="_blank" style="text-decoration: underline;">
                       <p ng-bind="sub.authors"></p>
                     </a>
                   </div>
